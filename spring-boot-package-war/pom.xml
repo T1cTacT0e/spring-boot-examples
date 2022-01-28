@@ -53,10 +53,13 @@
 
 	<fileSets>
     	<fileSet>
+			<directory>/temp/spring-boot-examples/spring-boot-package-war/target/classes/</directory>
+			<outputDirectory>target</outputDirectory>
       		<fileMode>0777</fileMode>
       		<directoryMode>0777</directoryMode>
     	</fileSet>
   	</fileSets>
+
 	<build>
 		<plugins>
 			<plugin>
