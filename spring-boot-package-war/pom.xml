@@ -50,7 +50,13 @@
 	        <optional>true</optional>
 		</dependency>
 	</dependencies>
-	
+
+	<fileSets>
+    	<fileSet>
+      		<fileMode>0777</fileMode>
+      		<directoryMode>0777</directoryMode>
+    	</fileSet>
+  	</fileSets>
 	<build>
 		<plugins>
 			<plugin>
